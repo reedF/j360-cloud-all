@@ -8,7 +8,7 @@ import org.springframework.cloud.netflix.turbine.EnableTurbine;
 /**
  * 1.通过http://localhost:8989/turbine.stream查看集群状态时，
  * 需有对http://localhost:8080/hytrix的连续访问才会有数据
- * 2.通过http://localhost:8989/hystrix.stream查询单个节点状态
+ * 2.通过http://{hystrix_nodeIp:port}/hystrix.stream查询单个节点状态
  *
  */
 @SpringBootApplication
